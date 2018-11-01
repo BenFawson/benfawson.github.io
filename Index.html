@@ -1,0 +1,131 @@
+<html> 
+	<head id="you">
+	
+	<link type="text/css" rel="stylesheet" href="main.css" />
+	
+	<script>
+	
+		function banner(){ 
+			var text = confirm("Did You Really Want to Click on My Banner?"); 
+			return text; 
+		}
+		
+		function answer(){ 
+		
+			var radio = document.getElementsByName("Q.");
+			var selection = false;
+			var message = ""; 
+			for( var i = 0; i < radio.length; i++) {
+				if(radio[i].value == "yes" && radio[i].checked == true) { 
+					selection = true; 
+				} //end if statement 
+			} //end for loop
+			
+			if(selection == true) {
+				message = message + "<b><p style='color:green'>Way to go!!!</p></b>"; 
+			} else { 
+				message = message + "<b><p style='color:blue'>Fail!!!</p></b>"; 
+			}
+				document.getElementById("response").innerHTML = message;
+
+		} //end function answer
+	
+	</script>
+	
+	</head>
+		<h1><b>Medieval Weapons</b></h1>
+		<h2><b>Swords</b></h2>
+	
+	<nav>
+			<ul id="navmenu">
+				<li class="navitem"><a class="homelink" href="index.html">Home</a></li>
+				<li class="navitem"><a class="homelink" href="index2.html">Page 2</a></li>
+				<li class="navitem"><a class="homelink" href="games.html">Games</a></li>
+			</ul>
+		</nav>
+	
+	<div id="rs">
+	
+		<img id="img" src="https://img-new.cgtrader.com/items/624214/e5f08c1c5d/long-sword-game-ready-3d-model-low-poly-obj-fbx-blend-dae.png"></img>
+	
+		<p1><b>A sword is a long, edged piece of forged metal,</b> used in many civilisations throughout the world, <u>primarily as a cutting or thrusting weapon and occasionally for clubbing.</u><i> A sword fundamentally consists of a blade and a hilt, typically with one or two edges for striking and cutting,</i> and a point for thrusting. The basic intent and physics of swordsmanship have remained fairly constant through the centuries, but the actual techniques vary among cultures and periods as a result of the differences in blade design and purpose.</p1>
+	
+			<marquee><b>Hi</b> <i>George</l></marquee>
+	
+	</div>
+		
+		
+			<style>
+			
+			</style>
+	
+		
+			<title> School </title> 
+	
+		
+	<div class="wrap-list">
+		<ol>
+			<li class="andmyfatherdweltinatent"><b>Typs of Weapons</b></li><br/>
+			<li class="andmyfatherdweltinatent">Swords Daggers and Knives</li>
+			<li class="andmyfatherdweltinatent">Blunt hand Weapons</li>
+			<li class="andmyfatherdweltinatent">Polearms</li>
+			<li class="andmyfatherdweltinatent">Ranged Weapons</li>
+		</ol>
+	</div> 
+	
+		<marquee><u><b><i>Longsword</i></b></u> The Longsword was made to be 40" to 48" The longsword is commonly held in combat with both hands, though some may be used single-handed. Longswords are used for hewing, slicing, and stabbing. The specific offensive purpose of an individual longsword is derived from its physical shape. <b>All parts of the sword are used for offensive purposes, including the pommel and crossguard.</b>The longsword, with its longer grip and blade, appears to have become popular during the 14th century and remained in common use, as shown through period art and tale, from 1250 to 1550. The longsword was a powerful and versatile weapon. For close personal infantry combat, however, the longsword was prized for its versatility and killing capability.</marquee>
+	
+		</br> </br> 
+	<hr>
+	
+			<center><b>Benaiah Fawson</b> <a id="weapons" href="http://www.medievalwarfare.info/weapons.htm#longswords"><b>Weapons</b></a></center>
+	
+	<body id="andmyfatherdweltinatent">
+	
+		<audio width="400" height="220" controls autoplay>
+			<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+		</audio> 
+
+	
+		<a id="diepio" href="https://diep.io" onclick="return banner()">
+		<span class="wrap-text"><header>Hello everyone</header></span>
+		</a>
+		
+		
+		</br>
+		
+	
+			<h2>Longsword Question</h2> 
+			<p2 class="andmyfatherdweltinatent2">What parts of the Longsword is used as a Weapon?</p2>
+			</br>
+	
+	<div class="wrap-trivia">
+		<form>
+			<div id="response"> </div>
+		
+			<input type="radio" name="Q." value="trivia">Blade<br>
+			<input type="radio" name="Q." value="trivia">Point<br> 
+			<input type="radio" name="Q." value="yes">All of the Sword<br> 
+			<input type="radio" name="Q." value="trivia">Pommel<br> 
+			<input type="radio" name="Q." value="trivia">None of it, it's useless<br> 
+			<input type="button" id="submit" value="Submit" onclick="answer()">
+		</form>
+	</div>
+		
+		<footer>goodbye everyone</footer>
+		
+		<iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/dBjJS42VnyE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
